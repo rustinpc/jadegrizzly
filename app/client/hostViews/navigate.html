@@ -1,14 +1,18 @@
 <template name="navigate">
-  <div>{{gameState}}</div>
+<div class="container">
+  <img class="logo" src="img/snapshot-small-g.png" />
+  <h2>Current state</h2>
+  <div class="gameState">{{gameState}}</div>
   <div>
-    <button class="previous">Previous</button>
-    <button class="next">Next</button>
+    <button class="previous button">Previous</button>
+    <button class="next button">Next</button>
   </div>
   <div>
-    <button class="ask-reset">Reset</button>
+    <button class="ask-reset alert button">Reset</button>
   </div>
-  <div class="reset hidden">Are you sure?</div>
+  <div class="reset hidden"><p>Are you sure?</p></div>
   <div>
-    <button class="reset hidden">Yes</button>
+    <button class="reset hidden alert button">Yes</button>
   </div>
+</div>
 </template>

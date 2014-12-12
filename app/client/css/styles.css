@@ -3,6 +3,7 @@ body {
 }
 
 /* GENERAL */
+
 .photo {
   max-width:90%;
   max-height:90%;
@@ -16,6 +17,26 @@ body {
   margin-top: 20px;
   margin: auto;
 }
+
+/* PENDING VIEW */
+
+.loading {
+  margin-top: 30px;
+}
+
+/* HOST START AND NAVIGATE VIEWS */
+
+.logo {
+  margin-bottom: 20px;
+}
+
+  .gameState {
+    background-color: #BBDEFB;
+    padding: 20px;
+    bottom: 1px solid #999;
+    border-radius: 5px;
+    margin: 20px;
+  }
 
 /* INPUT VIEW */
 
@@ -37,8 +58,9 @@ body {
 }
 
 .wait {
-  font-style: italic;
-  color: #FF0000;
+  vertical-align: center;
+  font-size: .8em;
+  font-weight: bold;
 }
 
 /* VOTE VIEW */

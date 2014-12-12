@@ -55,7 +55,7 @@ Template.input.events({
     $('textarea').prop('disabled', true);
     $('button').prop('disabled', true);
     $('button').html('Please wait');
-    $('div.input').append('<p class="wait">Waiting for all submissions</p>');
+    $('div.input').append('<p class="wait">Waiting for all submissions...</p>');
 
     // Prevent default form submit
     return false;
