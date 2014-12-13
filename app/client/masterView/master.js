@@ -3,9 +3,7 @@ Tracker.autorun(function() {
   var gameInfo = Games.findOne();
   var host = Session.get('host');
 
-  if (gameInfo) {
-    if (!host) {
-      Router.go('/s' + gameInfo.stateID);
-    }
+  if (gameInfo && !host) {
+    Router.go('/s' + gameInfo.stateID);
   }
 });
